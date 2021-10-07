@@ -9,15 +9,15 @@ in the query string.-->
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Form task</title>
+    <title>Edit color</title>
 </head>
 <body>
-<form>
+<form action="ServletController.java">
     <p>
         Favourite color: <input type="text" name="color"
                                 value='${param.color}'>
         <input type="submit" name="confirmButton"
-               value="I know my favourite color!!!">
+               value="Is it your favourite color? Really?">
     </p>
 </form>
 </body>
